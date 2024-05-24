@@ -30,3 +30,5 @@ E.g. http://localhost:8080/lottery/prizes
 @Get "/userPrizes/{userId}" is to retrieve all the prizes the user has won.
 E.g. http://localhost:8080/lottery/userPrizes/1
 
+In LotteryService.java, I have used "Boolean isSet = c(userSubmissionKey, "submitted");" to check for duplicate submissions.
+ 
